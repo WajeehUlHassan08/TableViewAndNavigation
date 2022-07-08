@@ -10,9 +10,11 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var lbl_name: UILabel!
+    @IBOutlet weak var img_View: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        // Initialization codee
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

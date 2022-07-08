@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA8286E725A052C800B2C437 /* SceondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8286E625A052C800B2C437 /* SceondViewController.swift */; };
 		CACC70D725779339002BA345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACC70D625779339002BA345 /* AppDelegate.swift */; };
 		CACC70D925779339002BA345 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACC70D825779339002BA345 /* SceneDelegate.swift */; };
 		CACC70DB25779339002BA345 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACC70DA25779339002BA345 /* ViewController.swift */; };
 		CACC70DE25779339002BA345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACC70DC25779339002BA345 /* Main.storyboard */; };
 		CACC70E02577933A002BA345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CACC70DF2577933A002BA345 /* Assets.xcassets */; };
 		CACC70E32577933A002BA345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACC70E12577933A002BA345 /* LaunchScreen.storyboard */; };
+		CACC70EF25779BC6002BA345 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACC70EE25779BC6002BA345 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA8286E625A052C800B2C437 /* SceondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceondViewController.swift; sourceTree = "<group>"; };
 		CACC70D325779339002BA345 /* Custom_Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Custom_Table.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACC70D625779339002BA345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CACC70D825779339002BA345 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		CACC70DF2577933A002BA345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CACC70E22577933A002BA345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CACC70E42577933A002BA345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CACC70EE25779BC6002BA345 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				CACC70D625779339002BA345 /* AppDelegate.swift */,
 				CACC70D825779339002BA345 /* SceneDelegate.swift */,
 				CACC70DA25779339002BA345 /* ViewController.swift */,
+				CA8286E625A052C800B2C437 /* SceondViewController.swift */,
+				CACC70EE25779BC6002BA345 /* CustomTableViewCell.swift */,
 				CACC70DC25779339002BA345 /* Main.storyboard */,
 				CACC70DF2577933A002BA345 /* Assets.xcassets */,
 				CACC70E12577933A002BA345 /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				CACC70DB25779339002BA345 /* ViewController.swift in Sources */,
 				CACC70D725779339002BA345 /* AppDelegate.swift in Sources */,
+				CACC70EF25779BC6002BA345 /* CustomTableViewCell.swift in Sources */,
 				CACC70D925779339002BA345 /* SceneDelegate.swift in Sources */,
+				CA8286E725A052C800B2C437 /* SceondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

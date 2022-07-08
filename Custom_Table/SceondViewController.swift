@@ -10,21 +10,20 @@ import UIKit
 
 class SceondViewController: UIViewController {
 
+    @IBOutlet weak var lbl_Name: UILabel!
+    @IBOutlet weak var img_View: UIImageView!
+    
+    var img = UIImage()
+    var user_name = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        lbl_Name.text = "Hey! i am \(user_name)."
+        img_View.image = img
 
-        // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
